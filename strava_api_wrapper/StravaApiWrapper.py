@@ -171,9 +171,3 @@ class StravaApiWrapper:
         return self.token.access_token
 
 
-if __name__ == "__main__":
-    pass
-    # api = StravaApiWrapper(97224, "a1324688113d816abb4e366ace2ea5c58cd0b17c")
-    # api.set_callback(func_cb)
-    # api.run()
-    #

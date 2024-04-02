@@ -10,6 +10,8 @@ python = "^3.10"
 flask = "^3.0.2"
 build = "^1.2.1"
 swagger-client = {git = "https://github.com/sladkovm/strava-swagger-client.git"}
+twine = "^5.0.0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]

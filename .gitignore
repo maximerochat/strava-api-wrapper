@@ -1,3 +1,7 @@
 perso.txt
 .idea
 venv
+*/.dotenv
+*/.env
+dist
+**/__pycache__
