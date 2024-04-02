@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "strava-api-wrapper"
+version = "0.1.0"
+description = ""
+authors = ["Maxime Rochat <rochat.max@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+build = "^1.2.1"
+swagger-client = {git = "https://github.com/sladkovm/strava-swagger-client.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
